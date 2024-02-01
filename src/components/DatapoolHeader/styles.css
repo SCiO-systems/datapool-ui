@@ -1,0 +1,127 @@
+.header-item {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding: 24px;
+}
+
+.header-item .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 4px;
+}
+
+.header-item .content .id {
+    font-size: 14px;
+}
+.header-item .content .name {
+    font-size: 19px;
+    font-weight: 600;
+}
+.header-item .content .records {
+    font-size: 14px;
+}
+.header-item .content .description {
+    font-size: 15px;
+    font-weight: 500;
+}
+.header-item .content .licenses {
+
+}
+.header-item .content .citation span{
+    font-weight: 600;
+}
+
+
+
+.header-item .content .category {
+    font-size: 15px;
+    font-weight: 600;
+}
+.header-item .content .chip {
+    display: flex;
+    padding: 2px 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #0596b7;
+}
+.header-item .content .chip p {
+    color: white;
+}
+.header-item .content .countries {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.header-item .content .crops {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.header-card .content .licenses {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.header-card .content .licenses i {
+    font-size: 24px;
+    color: black;
+    margin: 0;
+}
+
+.header-item .action {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.header-item .action img {
+    height: 30px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.header-card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    padding: 24px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.19);
+    background: #FFFFFF;
+    border: 1px solid #C0C0C0;
+}
+
+.header-card .title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.header-card  .button-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.header-card  .p-datatable {
+    width: 100%;
+}
+
+.header-card .p-datatable-thead {
+    background: #c0c0c0;
+}
+
+.header-card .p-datatable-thead th {
+    background: transparent;
+}
+
+.header-card .left-item {
+    width: 80%;
+}

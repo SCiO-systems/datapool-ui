@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    image: sciohub/datapool-ui:${ENV}
+    container_name: datapool-ui
+    restart: unless-stopped
+    ports:
+      - 3000:80

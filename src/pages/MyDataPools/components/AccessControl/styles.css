@@ -1,0 +1,24 @@
+.access-control {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+	/*padding: 5% 10%;*/
+	width: 100%;
+}
+
+.access-control .users-table {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	width: 100%;
+	padding: 24px;
+	border-radius: 4px;
+	box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.19);
+	background: #FFFFFF;
+	border: 1px solid #C0C0C0;
+}
+
+.access-control .users-table .buttons-container {
+	text-align: end;
+}

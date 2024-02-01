@@ -1,0 +1,4 @@
+.add-version .steps-container .bottom-button {
+	width: fit-content;
+	align-self: flex-end;
+}

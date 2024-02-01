@@ -1,0 +1,28 @@
+.license-wizard .p-accordion-content {
+	display:flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.license-wizard .p-accordion-content .navigation-buttons {
+	display: flex;
+	justify-content: space-between;
+}
+
+.license-wizard .creative-commons-license {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.license-wizard .creative-commons-license .content {
+	flex-direction: row;
+	display: flex;
+	margin-top: 10px;
+}
+
+.license-wizard .creative-commons-license .content .buttons {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}

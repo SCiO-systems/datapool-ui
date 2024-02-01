@@ -1,0 +1,13 @@
+.advanced-search-page .table-containers .dynamic-table .p-multiselect {
+	max-width: 100%;
+}
+
+.advanced-search-page .table-containers .dynamic-table .column-header {
+	font-size: 18px;
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.p-multiselect-panel .p-multiselect-items .p-multiselect-item{
+	text-transform: capitalize;
+}

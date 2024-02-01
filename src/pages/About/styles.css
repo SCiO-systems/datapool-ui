@@ -1,0 +1,21 @@
+.about {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	padding: 24px;
+	background: #fff;
+	border: 1px solid silver;
+	border-radius: 4px;
+	box-shadow: 0 2px 13px #00000030;
+	width: 80%;
+	margin: 5% 10%;
+}
+
+.about .header h3 {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.about .features {
+	font-size: larger;
+}

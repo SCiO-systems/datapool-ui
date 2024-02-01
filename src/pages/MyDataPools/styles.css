@@ -1,0 +1,12 @@
+.my-datapool {
+	display: flex;
+	flex-direction: column;
+	/*align-items: center;*/
+	gap: 40px;
+	padding: 5% 10%;
+	width: 100%;
+}
+
+.my-datapool .p-tabview-panels {
+	padding: 5% 0 0 0;
+}

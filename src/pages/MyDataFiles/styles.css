@@ -1,0 +1,8 @@
+.my-datafiles {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+	padding: 5% 10%;
+	width: 100%;
+}

@@ -1,0 +1,15 @@
+.my-datafiles .my-data-files-uploader {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	width: 80%;
+	padding: 24px;
+	border-radius: 4px;
+	box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.19);
+	background: #FFFFFF;
+	border: 1px solid #C0C0C0;
+}
+
+.uppy-Dashboard-inner {
+	width: 100% !important;
+}

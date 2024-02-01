@@ -1,0 +1,9 @@
+.add-version .steps-container .edit-codebook {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.add-version .steps-container .edit-codebook .codebook-validation {
+	align-self: flex-end;
+}

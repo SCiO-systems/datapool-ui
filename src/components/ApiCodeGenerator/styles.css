@@ -1,0 +1,35 @@
+.code-generator {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+	gap: 24px;
+	padding: 24px;
+	border-radius: 4px;
+	box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.19);
+	background: #FFFFFF;
+	border: 1px solid #C0C0C0;
+}
+.code-generator .code-snippet {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	position: relative;
+}
+
+.code-generator .code-snippet p {
+	word-wrap: break-word
+}
+
+.code-generator .code-snippet .p-button {
+	position: absolute;
+	right: 0;
+}
+
+/*.my-apis .code-generator .p-tabview {*/
+/*	padding: 24px;*/
+/*	border-radius: 4px;*/
+/*	box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.19);*/
+/*	background: #FFFFFF;*/
+/*	border: 1px solid #C0C0C0;*/
+/*}*/

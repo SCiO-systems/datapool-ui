@@ -1,0 +1,18 @@
+{
+	"histogram": [
+		{
+			"name": "field_name",
+			"values": [
+				[0,1],
+				[1,2]
+			]
+		},
+		{
+			"name": "field_name_2",
+			"values": [
+				[0,1],
+				[1,2]
+			]
+		}
+	]
+}

@@ -1,0 +1,222 @@
+.home-page .table-card .list-item {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	width: 100%;
+	padding: 24px;
+}
+
+.home-page .table-card .list-item .content {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 4px;
+}
+
+.home-page .table-card .list-item .content .id {
+	font-size: 14px;
+}
+.home-page .table-card .list-item .content .name {
+	font-size: 19px;
+	font-weight: 600;
+}
+.home-page .table-card .list-item .content .records {
+	font-size: 14px;
+}
+.home-page .table-card .list-item .content .description {
+	font-size: 15px;
+	font-weight: 500;
+}
+.home-page .table-card .content .licenses {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: row;
+	gap: 4px;
+}
+
+.home-page .table-card .content .licenses i {
+	font-size: 24px;
+	color: black;
+	margin: 0;
+}
+
+.home-page .table-card .list-item .content .category {
+	font-size: 15px;
+	font-weight: 600;
+}
+.home-page .table-card .list-item .content .chip {
+	display: flex;
+	padding: 2px 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background-color: #0596b7;
+}
+.home-page .table-card .list-item .content .chip p {
+	color: white;
+}
+.home-page .table-card .list-item .content .countries {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+.home-page .table-card .list-item .content .crops {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.home-page .table-card .list-item .content .card-bottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.home-page .table-card .content .card-bottom .chips {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	font-size: small;
+	width: 100%;
+}
+
+.home-page .table-card .list-item .content .card-bottom .action {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.home-page .table-card .list-item .action {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.home-page .table-card .card-item {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: space-between;
+	width: 340px;
+	padding: 24px;
+	gap: 12px;
+	border: 1px solid gray;
+	border-radius: 4px;
+}
+
+.home-page .table-card .card-item .content {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 4px;
+}
+
+.home-page .table-card .card-item .content .id {
+	font-size: 14px;
+	margin-bottom: 24px;
+}
+.home-page .table-card .card-item .content .name {
+	display: flex;
+	justify-content: center;
+	font-size: 19px;
+	font-weight: 600;
+	width: 100%;
+}
+.home-page .table-card .card-item .content .records {
+	display: flex;
+	justify-content: center;
+	font-size: 14px;
+	width: 100%;
+}
+
+.home-page .table-card .card-item .content .description {
+	display: flex;
+	text-align: justify;
+	font-size: 15px;
+	font-weight: 500;
+	width: 100%;
+}
+
+.home-page .table-card .card-item .content .category {
+	font-size: 15px;
+	font-weight: 600;
+}
+.home-page .table-card .card-item .content .chip {
+	display: flex;
+	padding: 2px 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background-color: #0596b7;
+}
+.home-page .table-card .card-item .content .chip p {
+	color: white;
+}
+.home-page .table-card .card-item .content .countries {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+.home-page .table-card .card-item .content .crops {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.home-page .table-card .card-item .content .card-bottom {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.home-page .table-card .card-item .action {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.home-page .table-card .id-pin-container {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.home-page .table-card .id-pin-container i {
+	color: gray;
+	font-size: 25px;
+}
+
+.home-page .table-card .action .p-button {
+	border: 0 !important;
+}
+
+.home-page .table-card .action .p-button-icon, .home-page .table-card .action .p-button-icon-only {
+	font-size: 25px;
+	--fa-primary-color: #0596b7;
+	--fa-secondary-color: #7a7a7a;
+	color: gray;
+	cursor: pointer;
+}
+
+.home-page .table-card .grid-nogutter {
+	gap: 24px;
+}
+
+.p-dataview {
+	box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.19);
+	border: 1px solid #C0C0C0;
+	border-radius: 4px;
+}
+.p-dataview-content {
+	padding: 24px !important;
+}

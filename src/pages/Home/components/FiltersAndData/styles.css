@@ -1,0 +1,103 @@
+.home-page {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	padding: 24px;
+	gap: 24px;
+}
+
+.home-page .p-tabview {
+	width: 80%;
+}
+
+.home-page .p-tabview-panels {
+	padding: 0;
+}
+.home-page .p-tabview-nav {
+	gap: 8px;
+	border: unset !important;
+}
+
+.home-page .p-unselectable-text {
+	border: 1px solid #0596b7;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.home-page .p-unselectable-text span {
+	color: #0596B7;
+}
+
+.home-page .p-unselectable-text.p-tabview-selected {
+	background: #0596B7;
+}
+
+.home-page .p-unselectable-text.p-tabview-selected span {
+	color: white;
+}
+
+.home-page .p-tabview-nav-link {
+	background: transparent !important;
+}
+
+.home-page .p-tabview-ink-bar {
+	display: none !important;
+}
+
+.home-page .filters {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 24px;
+	border-radius: 4px;
+	box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.19);
+	background: #FFFFFF;
+	border: 1px solid #C0C0C0;
+	width: 80%;
+}
+
+.home-page .filters .p-multiselect {
+	width: 25%;
+}
+
+.home-page .table-card {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	width: 100%;
+	padding: 24px;
+	border-radius: 4px;
+	box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.19);
+	background: #FFFFFF;
+	border: 1px solid #C0C0C0;
+}
+
+.home-page .table-card .title {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.home-page .table-card  .button-container {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+}
+
+.home-page .table-card  .p-datatable {
+	width: 100%;
+}
+
+.home-page .table-card .p-datatable-thead {
+	background: #c0c0c0;
+}
+
+.home-page .table-card .p-datatable-thead th {
+	background: transparent;
+}
+
+.home-page .new-datapool-button {
+	width: fit-content;
+	align-self: flex-end;
+}
